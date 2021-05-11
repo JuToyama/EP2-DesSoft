@@ -18,6 +18,9 @@ print('Desde que alguma das condições acima seja satisfeita, qualquer carta po
 
 baralho = cria_baralho.cria_baralho()
 print('O estado atual do baralho é: ')
-print(baralho)
 
-
+i=0
+for i in baralho:
+    carta = i
+    print (carta)
+    i=+1
