@@ -20,7 +20,9 @@ baralho = cria_baralho.cria_baralho()
 print('O estado atual do baralho é: ')
 
 i=0
+ii=1
 for i in baralho:
     carta = i
-    print (carta)
+    print (str(ii)+'.'+carta)
     i=+1
+    ii+=1
