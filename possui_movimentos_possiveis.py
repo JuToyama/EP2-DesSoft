@@ -1,6 +1,5 @@
 def possui_movimentos_possiveis(l):
     i=0
-    a=1
     b=l[i]
     c=l[i+1]
     d=0
