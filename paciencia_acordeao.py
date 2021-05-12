@@ -51,7 +51,7 @@ while play:
     if possui_movimentos_possiveis(baralho):
         for n, item in enumerate(baralho):
             y = n + 1
-            print(y, item)
+            print(('{0}'.format(y))+ ' ' + cores(item))
         toyota=True
         while toyota:
             carta_selecionada = int(input('Escolha uma carta (digite um número entre 1 e {0}): '.format(y))) - 1
